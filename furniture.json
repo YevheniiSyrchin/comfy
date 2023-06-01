@@ -1,0 +1,242 @@
+{
+  "furniture": [
+    {
+      "id": 1,
+      "name": "Accent Chair",
+      "photo": "Accent_Chair.png",
+      "price": 9.99,
+      "company": "Makros"
+    },
+    {
+      "id": 2,
+      "name": "Albany Corner Sectional",
+      "photo": "Albany_Corner_Sectional.png",
+      "price": 75.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 3,
+      "name": "Dining Table",
+      "photo": "Dining_Table.jpg",
+      "price": 49.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 4,
+      "name": "Emperor Bed",
+      "photo": "Emperor_Bed.jpg",
+      "price": 65.99,
+      "company": "Makros"
+    },
+    {
+      "id": 5,
+      "name": "Enterteinment Center",
+      "photo": "Enterteinment_Center.jpg",
+      "price": 59.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 6,
+      "name": "Garden Chair Set",
+      "photo": "Garden_Chair_Set.jpeg",
+      "price": 29.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 7,
+      "name": "High-Back Bench",
+      "photo": "High-Back_Bench.jpg",
+      "price": 14.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 8,
+      "name": "High-Back Sofa",
+      "photo": "High-Back_Sofa.jpg",
+      "price": 34.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 9,
+      "name": "Leather Sofa",
+      "photo": "Leather_Sofa.png",
+      "price": 44.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 10,
+      "name": "Lodge Sofa Set",
+      "photo": "Lodge_Sofa_Set.jpg",
+      "price": 29.99,
+      "company": "Makros"
+    },
+    {
+      "id": 11,
+      "name": "Modern Bookshelf",
+      "photo": "Modern_Bookshelf.jpg",
+      "price": 64.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 12,
+      "name": "Utopia Sofa",
+      "photo": "Utopia_Sofa.jpg",
+      "price": 54.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 13,
+      "name": "Wooden Bed",
+      "photo": "Wooden_Bed.png",
+      "price": 49.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 14,
+      "name": "Wooden Table",
+      "photo": "Wooden_Table.png",
+      "price": 19.99,
+      "company": "Makros"
+    },
+    {
+      "id": 15,
+      "name": "Corner Desk",
+      "photo": "Corner_Desk.jpg",
+      "price": 39.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 16,
+      "name": "Lounge Chair",
+      "photo": "Lounge_Chair.jpg",
+      "price": 24.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 17,
+      "name": "Coffee Table",
+      "photo": "Coffee_Table.jpg",
+      "price": 19.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 18,
+      "name": "Ottoman",
+      "photo": "Ottoman.jpg",
+      "price": 14.99,
+      "company": "Makros"
+    },
+    {
+      "id": 19,
+      "name": "Bar Stool",
+      "photo": "Bar_Stool.jpg",
+      "price": 15.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 20,
+      "name": "Sectional Sofa",
+      "photo": "Sectional_Sofa.jpg",
+      "price": 59.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 21,
+      "name": "Computer Desk",
+      "photo": "Computer_Desk.jpg",
+      "price": 29.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 22,
+      "name": "Armchair",
+      "photo": "Armchair.jpg",
+      "price": 29.99,
+      "company": "Makros"
+    },
+    {
+      "id": 23,
+      "name": "TV Stand",
+      "photo": "TV_Stand.jpg",
+      "price": 39.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 24,
+      "name": "Console Table",
+      "photo": "Console_Table.jpg",
+      "price": 22.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 25,
+      "name": "Nightstand",
+      "photo": "Nightstand.jpg",
+      "price": 9.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 26,
+      "name": "Futon Sofa",
+      "photo": "Futon_Sofa.jpg",
+      "price": 49.99,
+      "company": "Makros"
+    },
+    {
+      "id": 27,
+      "name": "Bookcase",
+      "photo": "Bookcase.jpg",
+      "price": 34.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 28,
+      "name": "Dresser",
+      "photo": "Dresser.jpg",
+      "price": 42.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 29,
+      "name": "Office Chair",
+      "photo": "Office_Chair.jpg",
+      "price": 27.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 30,
+      "name": "Side Table",
+      "photo": "Side_Table.jpg",
+      "price": 18.99,
+      "company": "Makros"
+    },
+    {
+      "id": 31,
+      "name": "Dining Chair",
+      "photo": "Dining_Chair.jpg",
+      "price": 21.99,
+      "company": "Ikea"
+    },
+    {
+      "id": 32,
+      "name": "Couch",
+      "photo": "Couch.jpg",
+      "price": 64.99,
+      "company": "Caressa"
+    },
+    {
+      "id": 33,
+      "name": "Writing Desk",
+      "photo": "Writing_Desk.jpg",
+      "price": 32.99,
+      "company": "Liddy"
+    },
+    {
+      "id": 34,
+      "name": "Vanity Table",
+      "photo": "Vanity_Table.jpg",
+      "price": 54.99,
+      "company": "Makros"
+    }
+  ]
+}

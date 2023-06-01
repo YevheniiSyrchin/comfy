@@ -1,0 +1,14 @@
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin button($padding) {
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: $white;
+  border-style: solid;
+  padding: $padding;
+  margin-top: 20px;
+}

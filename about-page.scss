@@ -1,0 +1,30 @@
+@import "colors";
+@import "fonts";
+
+.logo {
+  max-width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+}
+
+.historyHeader {
+  @include Roboto-Regular(40px);
+  color: $darkblue;
+
+  span {
+    color: $orange;
+  }
+
+  margin-bottom: 20px;
+}
+
+.historyText {
+  max-width: 900px;
+  @include Roboto-Regular(22px);
+  color: $blue;
+  line-height: 40px;
+  padding-bottom: 30px;
+}

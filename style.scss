@@ -1,0 +1,62 @@
+@import "home-page";
+@import "product-page";
+@import "about-page";
+@import "cart";
+@import "mixins";
+@import "fonts";
+@import "colors";
+@import "media";
+
+.header {
+  position: relative;
+  padding: 40px 0px;
+  @include flex(row, space-between, center);
+
+  .navigation {
+    @include flex(row, space-between, center);
+    @include Roboto-Regular(18px);
+    & li {
+      padding-right: 20px;
+    }
+    & a {
+      text-decoration: none;
+    }
+  }
+  .navColorWhite {
+    a {
+      color: $white;
+    }
+  }
+  .navColorDarkblue {
+    a {
+      color: $darkblue;
+    }
+  }
+}
+.toCenter {
+  @include flex(column, center, center);
+}
+.title {
+  width: 100%;
+  padding: 80px 0 80px 0;
+  margin-bottom: 40px;
+  position: relative;
+}
+.title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $lightblue;
+  z-index: -1;
+}
+.titleText {
+  @include Roboto-Regular(36px);
+  color: $blue;
+}
+.cartButton {
+  cursor: pointer;
+}
