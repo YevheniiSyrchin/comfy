@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+@mixin Roboto-Regular($font-size) {
+  font-family: "Roboto", sans-serif;
+  font-size: $font-size;
+}
+@mixin Pacifico-Regular($font-size) {
+  font-family: "Pacifico", cursive;
+  font-size: $font-size;
+}
+@mixin Kalam($font-size) {
+  font-family: "Kalam", cursive;
+  font-size: $font-size;
+}

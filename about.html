@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <script src="./js/cart.js" defer></script>
+    <script src="./js/about.js" defer></script>
+
+    <title>About Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <nav>
+            <ul class="navigation navColorDarkblue">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+          <img class="logo" src="./pictures/logo.png" alt="Comfy" />
+          <div class="cartButtonContainer">
+            <button class="cartButton">
+              <img src="./pictures/cart-black.png" alt="Cart Icon" />
+              <span id="cart-count">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <p class="container titleText">Home / About</p>
+      </div>
+    </header>
+    <main class="container toCenter">
+      <h2 class="historyHeader"><span>/</span> Our History</h2>
+      <p class="historyText">
+        Welcome to our online store, your ultimate destination for exceptional
+        furniture. At <i>comfy</i>, we take immense pride in our rich history,
+        spanning several decades. Since our establishment, we have been
+        dedicated to providing exquisite and timeless pieces that transform
+        houses into homes. <br />
+        Founded in 2021, our store has grown from a humble brick-and-mortar
+        location to a thriving online platform. Our journey began with a passion
+        for craftsmanship and an unwavering commitment to quality. Today, we
+        continue to curate an impressive collection of furniture that combines
+        impeccable design with superior durability. <br />
+        As a family-owned business, we prioritize personalized customer service,
+        ensuring a seamless shopping experience for every visitor. Discover our
+        exquisite range and allow us to help you furnish your space with
+        elegance and style. Experience the perfect blend of comfort,
+        functionality, and aesthetics at <i>comfy</i>.
+      </p>
+      <div id="cart" class="cartContainer">
+        <button class="closeButton">
+          <img src="./pictures/close-button.png" />
+        </button>
+        <div class="cartBag">
+          <h2>Your Bag</h2>
+          <button class="removeAllButton">Remove All</button>
+        </div>
+        <div class="cartItemsContainer">
+          <ul class="cartItems"></ul>
+        </div>
+        <div class="cartCheckout">
+          <p class="cartTotalValue">Total: $0.00</p>
+          <a class="buttonCheckout" href="">CHECKOUT</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </main>
+  </body>
+</html>

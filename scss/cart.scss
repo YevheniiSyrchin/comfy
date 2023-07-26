@@ -1,0 +1,195 @@
+@import "colors";
+@import "fonts";
+@import "mixins";
+
+.cartContainer {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  padding: 60px 0 40px 0;
+
+  .cartTotalValue {
+    @include Kalam(40px);
+    text-align: center;
+  }
+}
+.cartBag {
+  width: 100%;
+  & h2 {
+    @include Kalam(30px);
+    text-align: center;
+  }
+}
+.removeAllButton {
+  display: flex;
+  margin: 10px auto;
+  background-color: transparent;
+  letter-spacing: 1px;
+  color: $blue;
+  font-weight: 500;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.showCart {
+  @include flex(column, space-between, center);
+}
+
+.showCart body {
+  overflow: hidden;
+}
+
+.buttonCheckout {
+  @include Roboto-Regular(16px);
+  @include button(8px 18px);
+  color: $white;
+  background-color: $orange;
+  text-decoration: none;
+}
+
+.cartItemsContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.cartItems {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.cart-item {
+  @include flex(row, space-between, center);
+  padding: 20px;
+  width: 100%;
+}
+
+.product-container {
+  @include flex(row, space-between, center);
+  width: 100%;
+}
+
+#cart .product-image {
+  width: 110px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.product-info {
+  flex-grow: 1;
+  @include flex(column, space-between, start);
+  & span {
+    @include Roboto-Regular(16px);
+    padding: 0 5px 5px;
+    color: $darkblue;
+  }
+}
+
+.counter {
+  @include flex(column, center, center);
+}
+
+.counter button {
+  background-color: transparent;
+  color: $orange;
+  border: none;
+  padding: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cart-item-quantity {
+  background-color: transparent;
+  width: 30px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+.remove-button {
+  width: 60px;
+  background-color: transparent;
+  letter-spacing: 1px;
+  color: $blue;
+  font-weight: 500;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cartButtonContainer {
+  position: relative;
+}
+.cartButton {
+  @include flex(row, center, center);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#cart-count {
+  position: absolute;
+  top: -2px;
+  right: -6px;
+  background-color: $orange;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.cartCheckout {
+  padding-top: 20px;
+  @include flex(column, center, center);
+}
+.decrease-button {
+  background-image: url("../pictures/arrow-down.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.increase-button {
+  background-image: url("../pictures/arrow-up.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
